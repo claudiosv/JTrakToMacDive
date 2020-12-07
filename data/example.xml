@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dives SYSTEM "http://www.mac-dive.com/macdive_logbook.dtd">
+
+<dives>
+    <units>Metric</units>
+    <schema>2.2.0</schema>
+    <dive>
+        <date>2020-11-21 18:38:41</date>
+        <identifier>20201121183841-1270642</identifier>
+        <diveNumber>18</diveNumber>
+        <rating>0</rating>
+        <repetitiveDive>2</repetitiveDive>
+        <diver>Suunto Diver</diver>
+        <computer>Suunto Vyper Novo</computer>
+        <serial>1270642</serial>
+        <maxDepth>1.88</maxDepth>
+        <averageDepth>1.53</averageDepth>
+        <cns>12.00</cns>
+        <decoModel>Suunto RGBM</decoModel>
+        <duration>7</duration>
+        <gasModel>Nitrox</gasModel>
+        <surfaceInterval>7</surfaceInterval>
+        <sampleInterval>20</sampleInterval>
+        <tempAir>0.00</tempAir>
+        <tempHigh>25.00</tempHigh>
+        <tempLow>25.00</tempLow>
+        <visibility></visibility>
+        <weight></weight>
+        <notes><![CDATA[]]></notes>
+        <diveMaster></diveMaster>
+        <diveOperator></diveOperator>
+        <skipper></skipper>
+        <boat></boat>
+        <weather></weather>
+        <current></current>
+        <surfaceConditions></surfaceConditions>
+        <entryType></entryType>
+        <site></site>
+        <tags></tags>
+        <types></types>
+        <buddies></buddies>
+        <gear>
+            <item>
+                <type>Computer</type>
+                <manufacturer>Suunto</manufacturer>
+                <name>Vyper Novo</name>
+                <serial>1270642</serial>
+            </item>
+        </gear>
+        <gases>
+            <gas>
+                <pressureStart>0.00</pressureStart>
+                <pressureEnd>0.00</pressureEnd>
+                <oxygen>32</oxygen>
+                <helium>0</helium>
+                <double>0</double>
+                <tankSize>10</tankSize>
+                <workingPressure>3000</workingPressure>
+                <supplyType>Open Circuit</supplyType>
+                <duration>7</duration>
+                <tankName>New Tank</tankName>
+            </gas>
+        </gases>
+        <samples>
+            <sample>
+                <time>0.00</time>
+                <depth>1.53</depth>
+                <pressure>0.00</pressure>
+                <temperature>25.00</temperature>
+                <ppo2>0.37</ppo2>
+                <ndt>0</ndt>
+            </sample>
+        </samples>
+        <events>
+            <event>
+                <type>27</type>
+                <time>7.00</time>
+                <detail></detail>
+                <name>Tissue Warning</name>
+            </event>
+        </events>
+    </dive>
+</dives>
