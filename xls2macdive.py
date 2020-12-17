@@ -3,14 +3,16 @@
 import pandas as pd
 from lxml import etree
 import datetime
-
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("path")
+args = parser.parse_args()
+print(args.path)
 
 def seconds_from_mm(row):
     return sum(x * int(t) for x, t in zip([60, 1], str(row['Time']).split(":")))
 
-xls_location = "data/jtrak_dives3.xls"
-
-sheets = pd.read_excel(xls_location, skiprows=3, sheet_name=None)
+sheets = pd.read_excel(args.path, skiprows=3, sheet_name=None)
 
 s = """<?xml version="1.0" encoding="UTF-8"?><dives />""".encode('utf-8')
 parser = etree.XMLParser(ns_clean=True, recover=True, encoding='utf-8')
@@ -74,5 +76,5 @@ for sheet_name, dive in sheets.items():
         temperature.text = "{:.1f}".format(row["Temp. [°C]"])
 
 
-etree.ElementTree(tree).write('output1.xml', pretty_print=True, xml_declaration=True,   encoding="utf-8",
+etree.ElementTree(tree).write('output.xml', pretty_print=True, xml_declaration=True,   encoding="utf-8",
                               doctype='<!DOCTYPE dives SYSTEM "http://www.mac-dive.com/macdive_logbook.dtd">')
