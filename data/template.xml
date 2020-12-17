@@ -5,79 +5,35 @@
     <units>Metric</units>
     <schema>2.2.0</schema>
     <dive>
-        <date>2020-11-21 18:38:41</date>
-        <identifier>20201121183841-1270642</identifier>
+        <date>2020-12-16 18:40</date>
+        <identifier>boop</identifier>
         <diveNumber>{DIVE_NUMBER}</diveNumber>
-        <rating>0</rating>
-        <repetitiveDive>1</repetitiveDive>
         <diver>Claudio Spiess</diver>
         <computer>Scubapro Aladin 2G</computer>
         <serial>9190</serial>
         <maxDepth>{MAX_DEPTH}</maxDepth>
         <averageDepth>{AVG_DEPTH}</averageDepth>
-        <cns>0.00</cns>
-        <decoModel>ZH-L8 ADT</decoModel>
+        <decoModel>ZHL-8 ADT</decoModel>
         <duration>{DURATION_SECONDS}</duration>
         <gasModel>Air</gasModel>
-        <surfaceInterval>0</surfaceInterval>
         <sampleInterval>4</sampleInterval>
-        <tempAir>{FIRST_TEMP}</tempAir>
         <tempHigh>{MAX_TEMP}</tempHigh>
         <tempLow>{MIN_TEMP}</tempLow>
-        <visibility></visibility>
-        <weight></weight>
-        <notes><![CDATA[]]></notes>
-        <diveMaster></diveMaster>
-        <diveOperator></diveOperator>
-        <skipper></skipper>
-        <boat></boat>
-        <weather></weather>
-        <current></current>
-        <surfaceConditions></surfaceConditions>
-        <entryType></entryType>
-        <site></site>
-        <tags></tags>
-        <types></types>
-        <buddies></buddies>
         <gear>
             <item>
                 <type>Computer</type>
-                <manufacturer>Suunto</manufacturer>
-                <name>Vyper Novo</name>
-                <serial>1270642</serial>
+                <manufacturer>Scubapro</manufacturer>
+                <name>Aladin 2G</name>
+                <serial>9190</serial>
             </item>
         </gear>
-        <gases>
-            <gas>
-                <pressureStart>0.00</pressureStart>
-                <pressureEnd>0.00</pressureEnd>
-                <oxygen>21</oxygen>
-                <helium>0</helium>
-                <double>0</double>
-                <tankSize>10</tankSize>
-                <workingPressure>3000</workingPressure>
-                <supplyType>Open Circuit</supplyType>
-                <duration>7</duration>
-                <tankName>New Tank</tankName>
-            </gas>
-        </gases>
         <samples>
             <sample>
                 <time>0.00</time>
                 <depth>1.53</depth>
-                <pressure>0.00</pressure>
                 <temperature>25.00</temperature>
-                <ppo2>0.37</ppo2>
-                <ndt>0</ndt>
             </sample>
         </samples>
-        <events>
-            <event>
-                <type>27</type>
-                <time>7.00</time>
-                <detail></detail>
-                <name>Tissue Warning</name>
-            </event>
-        </events>
+
     </dive>
 </dives>
